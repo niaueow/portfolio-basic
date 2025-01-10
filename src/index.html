@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			href="./output.css"
+			rel="stylesheet" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+			rel="stylesheet"
+			type="text/css" />
+		<title>ni's portfolio</title>
+	</head>
+	<body class="bg-tertiary">
+		<header class="flex justify-between items-center p-5 sticky top-8 z-50 m-8 border-2 border-primary/25 shadow rounded-2xl bg-secondary">
+			<div class="text-primary text-3xl font-bold">NIA;</div>
+			<nav
+				class="fixed inset-0 z-20 flex flex-col items-center justify-center bg-primary md:relative md:bg-transparent md:flex md:justify-between md:flex-row"
+				id="navbar">
+				<ul class="flex flex-col items-center space-y-5 md:flex-row md:space-x-5 md:space-y-0">
+					<li>
+						<a
+							href="#about"
+							class="block text-white/70 hover:text-white/90 hover:font-semibold ease-linear font-medium text-2xl md:text-lg transition duration-500"
+							>About
+						</a>
+					</li>
+					<li>
+						<a
+							href="#Projects"
+							class="block text-white/70 hover:text-white/90 hover:font-semibold ease-linear font-medium text-2xl md:text-lg transition duration-500"
+							>Projects
+						</a>
+					</li>
+					<li>
+						<a
+							href="#contact"
+							class="block text-white/70 hover:text-white/90 hover:font-semibold ease-linear font-medium text-2xl md:text-lg transition duration-500"
+							>Contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- about -->
+		<div
+			data-aos="fade-up"
+			data-aos-delay="200"
+			data-aos-duration="1000"
+			class="h-screen flex flex-col justify-center items-center gap-y-10"
+			id="welcome-section">
+			<h1
+				id="about"
+				class="text-primary text-8xl font-bold mx-auto justify-center items-center flex">
+				Hey, I'm Nia
+			</h1>
+			<p
+				id="about"
+				class="text-primary/70 text-lg italic font-medium mx-auto justify-center items-center flex">
+				UI/UX Designer & Frontend Enthusiast
+			</p>
+		</div>
+		<!-- projects -->
+		<section
+			data-aos="fade-up"
+			data-aos-delay="200"
+			data-aos-duration="1000"
+			id="projects"
+			class="flex flex-col h-screen">
+			<h1 class="text-primary text-5xl font-bold mx-auto justify-center items-center flex mb-4">Projects</h1>
+			<p
+				id="about"
+				class="text-primary/70 text-lg italic font-medium mx-auto justify-center items-center flex">
+				Explore some of my projects
+			</p>
+			<div class="project-tile flex flex-row justify-center items-center gap-x-10 mt-10">
+				<!-- project 1 -->
+				<div class="card card-compact bg-secondary border border-primary/25 w-96 shadow-xl">
+					<figure>
+						<img
+							src="/public/project-brewser.png"
+							alt="Shoes" />
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title text-white font-bold">Brewser</h2>
+						<p class="font-medium">Brewser is a sleek coffee companion app that brings convenience to your fingertips. With an intuitive UI, it lets you browse coffee menus, reserve a cozy spot at the café, order your favorite brew.</p>
+						<div class="card-actions justify-end">
+							<a
+								href="https://www.figma.com/"
+								target="_blank">
+								<button class="btn bg-primary hover:bg-primary/85 text-white">View Project</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- project 2 -->
+				<div class="card card-compact bg-secondary border border-primary/25 w-96 shadow-xl">
+					<figure>
+						<img
+							src="/public/project-pawzle.png"
+							alt="Shoes" />
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title text-white font-bold">Pawzle</h2>
+						<p class="font-medium">Pawzle is your go-to app for all things pets! From finding pet-friendly spots to care tips, health hacks, and even adopting furry friends straight from shelters—it’s all in one, easy-to-use platform. 🐾</p>
+						<div class="card-actions justify-end">
+							<a
+								href="https://www.figma.com/"
+								target="_blank">
+								<button class="btn bg-primary hover:bg-primary/85 text-white">View Project</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- project 3 -->
+				<div class="card card-compact bg-secondary border border-primary/25 w-96 shadow-xl">
+					<figure>
+						<img
+							src="/public/project-maomie.png"
+							alt="Shoes" />
+					</figure>
+					<div class="card-body">
+						<h2 class="card-title text-white font-bold">MAOmie</h2>
+						<p class="font-medium">MAOmie is your go-to noodle-only food delivery app! We’ve got all kinds of noodles to satisfy your cravings. With a user-friendly design, MAOmie makes ordering noodles as easy as slurping noodles!</p>
+						<div class="card-actions justify-end">
+							<a
+								href="https://www.figma.com/"
+								target="_blank">
+								<button class="btn bg-primary hover:bg-primary/85 text-white">View Project</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- contact -->
+		<div
+			data-aos="fade-up"
+			data-aos-delay="200"
+			data-aos-duration="1000"
+			class="h-screen flex flex-col justify-center items-center gap-y-10">
+			<h1
+				id="contact"
+				class="text-primary text-5xl font-bold mx-auto justify-center items-center flex">
+				Contact me here!
+			</h1>
+			<a
+				href="https://github.com/niaueow"
+				target="_blank"
+				id="profile-link">
+				<img
+					width="100"
+					height="100"
+					src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png"
+					alt="github"
+					class="transition hover:-translate-y-5 duration-500 ease-in-out transform hover:scale-110" />
+			</a>
+		</div>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
+<script>
+	tailwind.config = {
+		theme: {
+			extend: {
+				colors: {
+					primary: "#A2D2FF",
+					secondary: "#313131",
+					tertiary: "#252525",
+				},
+			},
+		},
+	};
+</script>
